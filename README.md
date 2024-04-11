@@ -1,5 +1,14 @@
 # 軟體設計 Proxy Pattern
 
+- [Lazy Initialization (Virtual Proxy)](#lazy-initialization-virtual-proxy)
+- [Access Control (Protection Proxy)](#access-control-protection-proxy)
+- [Local Execution of a Remote Service (Remote Proxy)](#local-execution-of-a-remote-service-remote-proxy)
+- [Logging Requests (Logging Proxy)](#logging-requests-logging-proxy)
+- [Caching Request Results (Caching Proxy)](#caching-request-results-caching-proxy)
+- [Smart Reference](#smart-reference)
+- [Usage](#usage)
+- [環境要求](#環境要求)
+
 此專案展示了 Proxy Pattern 在軟體設計中的應用，通過多種類型的代理模式實作，提供了一系列解決不同設計問題的策略。
 
 ## PPT 報告
