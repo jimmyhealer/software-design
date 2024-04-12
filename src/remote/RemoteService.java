@@ -1,3 +1,3 @@
 public interface RemoteService {
-  void performRemoteOperation();
+  String performRemoteOperation();
 }

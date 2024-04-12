@@ -6,8 +6,12 @@ public class RemoteServiceProxy implements RemoteService {
   }
 
   @Override
-  public void performRemoteOperation() {
+  public String performRemoteOperation() {
     System.out.println("Proxying the request to the remote service...");
-    remoteService.performRemoteOperation();
+    String response;
+    do {
+      response = remoteService.performRemoteOperation();
+    } while (response == null);
+    return response;
   }
 }
